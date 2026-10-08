@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
-read -p "entrer prénom : " prenom
 
-echo "Hello $prenom"
-                                                                              
+
+if [ $# -eq 1 ]; then
+	echo "salut $1!!"
+
+
+elif [ $# -eq 2 ]; then
+	echo "salut $1 ainsi que $2!!"    
+else
+	echo "yo tout le monde!!"
+fi
