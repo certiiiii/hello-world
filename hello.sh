@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-echo "Hello world $1"
+echo "Hello $1"
                                                                               
